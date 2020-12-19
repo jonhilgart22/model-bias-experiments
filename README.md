@@ -52,3 +52,11 @@ My search space for this problem was quite large. With 15 primitive functions, 2
 ### Results
 
 If we were randomlly guessing on the MNIST dataset, we'd expect a 10% success rate (10 numbers).
+
+
+
+### TODOs and Next Steps
+
+1. Genetic algortihms are used generally because they are easy to parallelize. I didn't explore this strategy in my code, but this could help cut the search time down by orders of magnitude.
+2. I only explored one type of `mutation` for each generation, random. Instead, it might be interesting to look at swapping the order of functions used, or combining functions from different models.
+3. My final models make the naive assumption that the functions should be applied to all input pixels. In a future iteration, I'd like to test adding/removing connections from this processing pipeline.

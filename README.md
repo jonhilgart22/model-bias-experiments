@@ -26,7 +26,7 @@ Here are the functions I explored combining in different orders to classify MNIS
 
 Here are what some of these functions look like on a range of -100 to 100.
 
-![sin](media/sin.png)
+![sum](media/sum.png)
 ![power](media/power.png)
 ![positive_step](media/positive_step.png)
 

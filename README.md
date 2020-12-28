@@ -80,9 +80,9 @@ Another way to verify the genetic algorithm is getting better, minimizing the lo
 
 Given the list of primitive functions used, I would expect that some would be better at helping to classify these MNIST digits. Therefore, we can compare the distribution of functions found in the first generation compared to the last generation.
 
-<image src="media/first_gen_functions.png" alt="drawing" width = "300">
+<image src="media/first_gen_functions.png" alt="drawing" width = "500">
 
-<image src="media/last_gen_functions.png" alt="drawing" width = "300">
+<image src="media/last_gen_functions.png" alt="drawing" width = "500">
 
 ### TODOs and Next Steps
 

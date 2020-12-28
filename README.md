@@ -27,10 +27,10 @@ Here are the functions I explored combining in different orders to classify MNIS
 
 Here are what some of these functions look like on a range of -100 to 100.
 
-<image src="media/sum.png" alt="drawing" width = "200">
-<image src="media/power.png" alt="drawing" width = "200">
-<image src="media/positive_step.png" alt="drawing" width = "200">
-<image src="media/log.png" alt="drawing" width = "200">
+<image src="media/sum.png" alt="drawing" width = "300">
+<image src="media/power.png" alt="drawing" width = "300">
+<image src="media/positive_step.png" alt="drawing" width = "300">
+<image src="media/log.png" alt="drawing" width = "300">
 
 
 ### Process
@@ -57,7 +57,7 @@ My search space for this problem was quite large. With 15 primitive functions, 2
 If we were randomlly guessing on the MNIST dataset, we'd expect a 10% accuracy(10 numbers). For the final model I found after ~800 generations, the overall accruacy was ~ **9%**.  However, there are some classes that we perform better than random on.
 
 
-<image src="media/performance_per_class.png" alt="drawing" width = "200">
+<image src="media/performance_per_class.png" alt="drawing" width = "300">
 
 Here is the final pipeline of functions that performed the best.  The `N_PIXELS_TO_PROCESS` parameter was 5.
 
@@ -74,15 +74,15 @@ Here is the final pipeline of functions that performed the best.  The `N_PIXELS_
 
 Another way to verify the genetic algorithm is getting better, minimizing the loss, is to look at the best loss per generation over time. Ideally, we'd want to see a downward trend which we find below. 
 
-<image src="media/loss_per_generation.png" alt="drawing" width = "200">
+<image src="media/loss_per_generation.png" alt="drawing" width = "300">
 
 #### Functions used
 
 Given the list of primitive functions used, I would expect that some would be better at helping to classify these MNIST digits. Therefore, we can compare the distribution of functions found in the first generation compared to the last generation.
 
-<image src="media/first_gen_functions.png" alt="drawing" width = "200">
+<image src="media/first_gen_functions.png" alt="drawing" width = "300">
 
-<image src="media/last_gen_functions.png" alt="drawing" width = "200">
+<image src="media/last_gen_functions.png" alt="drawing" width = "300">
 
 ### TODOs and Next Steps
 
